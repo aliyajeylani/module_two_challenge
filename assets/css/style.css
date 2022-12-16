@@ -200,6 +200,10 @@ footer p {
         justify-content: center;
         width: 100%;
     }
+
+    ..work1, .work2, .work3, .work4 .work5 {
+        height: 100%;
+    }
 }
 
 li:hover {
