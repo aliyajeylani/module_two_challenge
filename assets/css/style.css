@@ -60,12 +60,12 @@ header nav ul li {
 }
 
 #profile_pic {
-    margin: 10px;
+    margin: 10px auto;
     width: 90%;
     display: flex;
     justify-content: center;
     border: solid;
-    border-radius: 45deg;
+     height: 300px; 
 }
 
 main {
@@ -144,11 +144,8 @@ h4 {
     color: black;
     flex-basis: calc(50% - 1.75em); 
     display: flex;
-    margin: 0.5em;
+    margin: 0.5em; 
     text-decoration: none;
-   
-   
-    
 }
 
 .flex_item:first-child {
@@ -206,18 +203,22 @@ footer p {
 
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1300px) {
     main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     }
-
     .profile {
         justify-content: center;
         width: 100%;
     }
-
+    #profile_pic {
+        display: flex;
+        justify-content: center;
+        height: 400px;
+        width: 400px;
+    }
 
 }
 
